@@ -1,4 +1,4 @@
-# 🛍️ Goods Panda - Ecommerce Landing Page
+# 🛍️ Goods Panda – E-commerce Landing Page
 
 <img src="assets/logo.png" width="200" style="background-color:white;border-radius:20px;padding:20px">
 
@@ -6,167 +6,189 @@
 
 ## 📌 Project Overview
 
-এই repository তে design অনুযায়ী একটি **modern, responsive e-commerce landing page** তৈরি করা হয়েছে।  
-ল্যান্ডিং পেজে রয়েছে —
+**Goods Panda** is a modern and responsive **e-commerce landing page** built based on a provided design.
+The goal of this project is to recreate the design layout using **HTML5 and CSS3**, while ensuring proper structure, styling, and responsive behavior across different screen sizes.
 
-- Featured Product
-- Category Section
-- Shoes Product Section
-- Backpack Product Section
-- Newsletter Subscription Form
+The landing page includes the following sections:
 
-এই project টি **HTML5 এবং CSS3 ব্যবহার করে তৈরি করা হয়েছে**।
-
----
-
-## 🛠️ Tech Stack
-
-- **HTML5**
-- **CSS3**
+* Featured Product Hero Section
+* Category Section
+* Shoes Product Section
+* Backpack Product Section
+* Newsletter Subscription Section
 
 ---
 
-## 🎨 Design Requirements
+## 🛠️ Technologies Used
+
+* **HTML5** – Structure and semantic layout
+* **CSS3** – Styling and responsive design
+
+---
+
+## 🎨 Design Implementation
 
 ### 1️⃣ Header Section
 
-- বাম পাশে **Logo**
-- ডান পাশে **Hamburger Menu Icon**
-- যথাযথভাবে **padding এবং margin** ব্যবহার করা হয়েছে।
+* Logo positioned on the **left side**
+* **Hamburger menu icon** on the right side
+* Proper spacing using **margin and padding**
 
 ---
 
 ### 2️⃣ Hero Section – Featured Product
 
-Product: **Mi LED TV 4A Pro 32**
+Featured Product: **Mi LED TV 4A Pro 32**
 
-Hero section এ থাকবে —
+Hero section contains:
 
-- বাম পাশে: Title, Description, Price, Button
-- ডান পাশে: Product Image
-- হালকা background color
-- Proper spacing (padding & margin)
+* Product **Title**
+* Short **Description**
+* **Price**
+* **Buy Now button**
+* Product **Image**
+
+Layout:
+
+* Text content aligned to the **left**
+* Product image aligned to the **right**
+* **Light background color**
+* Proper spacing and alignment
 
 ---
 
 ### 3️⃣ Category Section
 
-Section Title থাকবে।
+This section contains **three category cards**:
 
-৩টি category card থাকবে —
+| Category | Background Color |
+| -------- | ---------------- |
+| Watch    | Orange           |
+| Bag      | Pink             |
+| Shoes    | Blue             |
 
-- **Watch** – কমলা background
-- **Bag** – গোলাপি background
-- **Shoes** – নীল background
+Each card includes:
 
-প্রত্যেক card এ থাকবে:
+* Category **icon/image**
+* **Text label**
+* **Rounded corners**
 
-- Icon/Image
-- Text Label
-- Rounded Corner
-
-Card গুলো পাশাপাশি সমান দূরত্ব রেখে সাজানো থাকবে।
+Cards are placed **side-by-side with equal spacing** according to the design.
 
 ---
 
 ### 4️⃣ Shoes Section
 
-Section Title থাকবে।
+The shoes section includes **three product cards**.
 
-৩টি product card থাকবে এবং প্রত্যেক card এ থাকবে:
+Each card contains:
 
-- Product Image
-- Title
-- Short Description
-- Price
-- **Buy Now Button**
+* Product image
+* Product title
+* Short description
+* Product price
+* **Buy Now button**
 
-Card এর ভেতরের content **center aligned** থাকবে।
+All card content is **center aligned**.
 
 ---
 
 ### 5️⃣ Backpack Section
 
-এই section এও ৩টি product card থাকবে।
+This section also includes **three product cards** with the same structure:
 
-প্রত্যেক card এ থাকবে:
+* Product image
+* Product title
+* Short description
+* Product price
+* **Buy Now button**
 
-- Product Image
-- Title
-- Short Description
-- Price
-- **Buy Now Button**
-
-Content গুলো **center aligned** থাকবে।
+All content is **center aligned**.
 
 ---
 
 ### 6️⃣ Newsletter Section
 
-এই section এ থাকবে:
+The newsletter section contains:
 
-- Headline: **LET'S STAY IN TOUCH**
-- Subtext: *Get updates on sales specials and more*
-- Email Input Field
-- **Send Button**
+* Headline: **LET'S STAY IN TOUCH**
+* Subtext: *Get updates on sales specials and more*
+* Email input field
+* **Send button**
 
-সব content **center aligned** থাকবে।
+All elements are **center aligned** for better user experience.
 
 ---
 
 ## 📱 Responsive Design
 
-এই landing page টি **320px পর্যন্ত responsive** করা হয়েছে।
+The website is responsive up to **320px screen width**.
 
-### 💻 Laptop Device (max-width:1200px)
+### 💻 Laptop Devices (max-width: 1200px)
 
-Hero Section এর **font size প্রয়োজন অনুযায়ী ছোট করা হয়েছে**।
+* Hero section **font sizes adjust proportionally**.
 
 ---
 
-### 📱 Tablet Device (max-width:992px)
+### 📱 Tablet Devices (max-width: 992px)
 
 **Categories**
 
-- Card গুলো wrap হয়ে নিচে চলে যাবে।
+* Category cards **wrap into multiple rows** when needed.
 
 **Products**
 
-- Product card গুলো নিচে নিচে অবস্থান করবে।
+* Product cards appear **stacked vertically**.
 
 **Newsletter**
 
-- Input box প্রয়োজন অনুযায়ী ছোট হবে।
+* Email input field **scales down appropriately**.
 
 ---
 
-### 📱 Mobile Device (max-width:640px)
+### 📱 Mobile Devices (max-width: 640px)
 
 **Categories**
 
-- এক কলামে নিচে নিচে অবস্থান করবে।
-- Full width নেবে।
-- Content center aligned থাকবে।
+* Cards appear in **a single column**
+* Cards take **full width**
+* Content becomes **center aligned**
 
 **Newsletter**
 
-- Input box এবং button নিচে নিচে থাকবে।
-- Center aligned থাকবে।
+* Input field and button appear **stacked vertically**
+* Both elements are **center aligned**
 
 ---
 
 ## 📂 Project Structure
+
+```
 goods-panda
 │
 ├── index.html
 ├── style.css
-└── assets/
-└── images
+│
+└── assets
+     ├── images
+     ├── category images
+     └── product images
+```
 
 ---
 
 ## 🚀 Live Preview
 
-You can run this project by opening **index.html** in your browser.
+To run this project locally:
+
+1. Download or clone the repository
+2. Open **index.html** in your browser
 
 ---
+
+## 👨‍💻 Author
+
+**Md. Touhidul Islam**
+
+---
+
